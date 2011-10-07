@@ -1,6 +1,6 @@
 SStatus::Application.routes.draw do
 
-  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+  # mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
   # TODO: Make this point somewhere!  
   root :to => "home#index"          

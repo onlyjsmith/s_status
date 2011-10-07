@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  username: MyString
-  fullname: MyString
+  id: 1
+  username: jonny1
+  fullname: Jonny 1
 
-two:
-  username: MyString
-  fullname: MyString
+two:   
+  id: 2
+  username: pepter1
+  fullname: Pepter 1

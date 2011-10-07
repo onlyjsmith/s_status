@@ -2,12 +2,18 @@
 
 one:
   user_id: 1
-  name: MyString
-  skype_status: MyString
-  real_status: MyString
+  name: Main
+  skype_status: Online
+  real_status: Online
 
 two:
   user_id: 1
-  name: MyString
-  skype_status: MyString
-  real_status: MyString
+  name: Secret
+  skype_status: Offline
+  real_status: Online
+  
+three:
+  user_id: 1
+  name: Really gone
+  skype_status: Offline
+  real_status: Offline
