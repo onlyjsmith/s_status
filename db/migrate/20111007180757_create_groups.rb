@@ -1,6 +1,6 @@
-class CreateVisibilityGroups < ActiveRecord::Migration
+class CreateGroups < ActiveRecord::Migration
   def change
-    create_table :visibility_groups do |t|
+    create_table :groups do |t|
       t.integer :user_id
       t.string :name
       t.string :skype_status

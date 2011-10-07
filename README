@@ -4,12 +4,12 @@ User:
   - username
   - fullname
   
-VisibilityGroup:
+Group:
   - user_id (owner)
   - name
   - skype_status
   - real_status
 
-GroupMembers:
+Members:
   - visibility_group_id
   - user_id
