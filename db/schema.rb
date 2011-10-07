@@ -11,10 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111007182530) do
+ActiveRecord::Schema.define(:version => 20111007195536) do
 
   create_table "groups", :force => true do |t|
-    t.integer  "user_id"
+    t.integer  "owner_id"
     t.string   "name"
     t.string   "skype_status"
     t.string   "real_status"
