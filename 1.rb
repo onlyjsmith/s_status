@@ -3,7 +3,7 @@ require 'net/http'
 require 'uri'
 
 
-class LocalStatusChecker
+class SkypeStatus
  
   def self.get_status_response
     raw = Appscript.app("Skype").send_(:script_name => "u", :command => "GET USERSTATUS")
@@ -37,9 +37,6 @@ class LocalStatusChecker
     raw.split("ONLINESTATUS ").last.strip.capitalize 
   end
 
-end
-
-class Friends
   def self.raw_friends
     Appscript.app("Skype").send_(:script_name => "u", :command => "SEARCH FRIENDS")
   end
@@ -62,5 +59,3 @@ class Friends
     end    
   end
 end
-
-class Decider
