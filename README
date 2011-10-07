@@ -1,0 +1,15 @@
+=== Models 
+
+User:
+  - username
+  - fullname
+  
+VisibilityGroup:
+  - user_id (owner)
+  - name
+  - skype_status
+  - real_status
+
+GroupMembers:
+  - visibility_group_id
+  - user_id

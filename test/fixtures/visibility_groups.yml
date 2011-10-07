@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  name: MyString
+  skype_status: MyString
+  real_status: MyString
+
+two:
+  user_id: 1
+  name: MyString
+  skype_status: MyString
+  real_status: MyString
