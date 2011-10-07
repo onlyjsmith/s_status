@@ -77,7 +77,7 @@ class Friends
     friends.each do |username|
       status = LocalStatusChecker.friend_status(username)
       fullname = LocalStatusChecker.fullname(username)
-      puts "(#{username}) #{fullname} is: #{status}" unless status == "Offline"
+      puts "#{fullname} (#{username}) is: #{status}" unless status == "Offline"
     end    
   end
 end
